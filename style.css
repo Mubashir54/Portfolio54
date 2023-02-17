@@ -1,0 +1,294 @@
+
+body {
+    font-size: 62.5%;
+    min-height: 100rem;
+    background-color: darkcyan;
+}
+
+h3{
+    color:yellow;
+    font-size: xx-large;
+    margin: 30px 0px 0px 50px;
+}
+ul {
+    font-size: xx-large;
+    list-style-type: none;
+    padding: 20;
+    overflow: hidden;
+    margin: -30px 0px 0px 300px;
+  }
+  li {
+    float: left;
+    color: #fff;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 50px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:antiquewhite;
+    color:black;
+  }
+
+section.section {
+    min-height: 40rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+section.section div.Intro1 {
+    width: 48%;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 2rem;
+    position: relative;
+    z-index: 10;
+}
+
+section.section div.Intro1 div.name {
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+section.section div.Intro1 div.name h1 span {
+    opacity: 0.1;
+}
+
+section.section div.Intro1 div.line {
+    margin: 1rem;
+    width: 35%;
+    background-color: rgb(240, 240, 36);
+    height: 5px;
+}
+
+section.section div.Intro1 div.intro {
+    width: 48%;
+    min-height: 20%;
+}
+
+section.section div.Intro1 div.intro span {
+    font-size: 1.6rem;
+}
+
+section.section div.Intro1 div.name h2,
+section.section div.Intro1 div.name h1 {
+    font-size: 3.2rem;
+    letter-spacing: .7rem;
+    color: white;
+
+}
+
+section.section div.image {
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    left: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section.section div.image div.circle {
+    margin-top: 30px;
+    margin-left: 200px;
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 90%;
+    width: 90%;
+    border-radius: 70%;
+    position: relative;
+}
+
+section.section div.image div.circle img {
+    height: 95%;
+    width: 100%;
+    background-size:cover;
+    object-fit: cover;
+    position: relative;
+}
+section.section div.serviceContainer {
+    min-height: 15rem;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 3px 0 10rem;
+    z-index: 10;
+}
+
+section.section div.serviceContainer div.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+
+}
+
+section.section div.serviceContainer div.service h1 {
+    color: #ffffff;
+    font-size: 2.6rem;
+    margin-bottom: .4rem;
+}
+
+section.section div.serviceContainer div.service p {
+    font-size: 1.6rem;
+    margin-bottom: .7rem;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+
+}
+section.company {
+    min-height: 10rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: -4rem;
+  
+}
+
+section.company div.CB {
+    background-color:black;
+    width: 80%;
+    min-height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 4px 2px rgb(26, 25, 25);
+}
+
+section.company div.CB div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 4rem;
+    width: 13rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
+section.NP {
+    min-height: 35rem;
+    display: flex;
+    justify-content: center;
+    background-color:darkseagreen;
+}
+
+section.NP div.need {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.NP div.need div.content {
+    width: 80%;
+}
+
+section.NP div.need div.content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+
+section.NP div.need div.content p {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: #ebebeb;
+
+}
+
+section.NP div.need div.NCont {
+    width: 80%;
+    min-height: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.NP div.need div.NCont div.number {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.NP div.need div.NCont div.number div.NV {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+section.NP div.PC {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.NP div.PC div.project {
+    width: 100%;
+    height: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 1rem;
+    border-bottom: 4px solid var(--circle-color);
+}
+
+section.NP div.PC div.project div.image {
+    height: 50%;
+    width: 25%;
+}
+
+section.NP div.PC div.project div.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+section.NP div.PC div.project div.content {
+    padding: 0 0 0 1rem;
+    width: 35%;
+}
+
+section.NP div.PC div.project div.content h1:first-child {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    color: white;
+}
+
+section.NP div.PC div.project div.content h1:nth-child(2) {
+    color: #ebebeb;
+    font-size: 1.2rem;
+}
+
+    header nav div.name i,
+    header nav div.name h1 {
+        
+        padding: .3rem;
+    }
